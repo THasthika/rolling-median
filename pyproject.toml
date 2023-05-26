@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rolling-median"
+version = "0.1.0"
+description = ""
+authors = ["Tharindu <tharindubathigama@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rolling_median"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7.1"
+tqdm = "^4.65.0"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
